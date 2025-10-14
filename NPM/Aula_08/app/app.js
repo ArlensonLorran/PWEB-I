@@ -1,4 +1,3 @@
-var createError = require('http-errors');
 var express = require(`express`)
 var path = require('path')
 var app = express()
@@ -14,6 +13,7 @@ const indexRouter = require('./routes/index')
 const magicRouter = require('./routes/magic')
 const aboutRouter = require('./routes/about')
 const dataRouter = require('./routes/data')
+const usersRouter = require('./routes/users')
 
 app.use('/', indexRouter)
 app.use('/magic', magicRouter)

@@ -7,7 +7,7 @@ router.use('/', (req, res, next) => {
 })
 
 router.get('/', function(req, res) {
-    res.send('<h1>Você esta na rota Magic</h1>')
+    res.render('magic.ejs')
 })
 
 module.exports = router

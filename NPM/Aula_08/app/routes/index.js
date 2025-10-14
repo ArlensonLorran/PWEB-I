@@ -9,7 +9,7 @@ const routeName = function(req, res, next) {
 router.use(routeName);
 
 router.get('/', (req, res) => {
-    res.send('<h1>Você esta na rota Raiz</h1>')
+    res.render('index.ejs')
 });
 
 module.exports = router

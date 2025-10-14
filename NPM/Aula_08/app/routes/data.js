@@ -6,6 +6,10 @@ router.use((req, res, next) => {
     next()
 })
 
+router.get('/', (req, res) => {
+    res.render('data.ejs')
+})
+
 router.post('/', (req, res) => {
     const { userId } = req.body 
     console.log(`Recebido via POST: userId=${userId}`)
