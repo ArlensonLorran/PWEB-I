@@ -1,0 +1,21 @@
+{
+  "name": "aula_08",
+  "version": "1.0.0",
+  "description": "Aplicação Express com rotas organizadas e EJS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "keywords": ["express", "ejs", "node", "web app"],
+  "author": "Lorran",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^5.1.0",
+    "http-errors": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
